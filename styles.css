@@ -1,0 +1,97 @@
+* {
+    background-color: pink;
+}
+
+h1 {
+    font-family: "Bitcount", serif;
+    font-size: 90px;
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.hero > p {
+    color: white;
+    margin-left: 10px;
+}
+
+h2, p {
+    font-family: "Roboto Mono", serif;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 1.2em;
+}
+.hero > button {
+    background-color: white;
+    margin-left: 10px;
+}
+
+hr {
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.about, .about > h2, .about > p, .about > img {
+    background-color: white;
+}
+
+.about {
+    border: 5px solid plum;
+    clear: both;
+    height: 100%;
+}
+
+.about > h2, .about > p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.about > p {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+.about > img {
+    display: inline-block;
+    position: relative;
+    width: 255px;
+    height: 255px;
+    border: 10px solid;
+    border-radius: 50%;
+}
+
+#about-img-1 {
+    border-color: #fbd3ff;
+    left: 70px;
+    bottom: 100px;
+}
+
+#about-img-2 {
+    border-color: #f8a9ff;
+    top: 70px;
+    left: 10px;
+}
+
+#about-img-3 {
+    border-color: #f57dff;
+    bottom: 105px;
+    left: 30px;
+}
+
+.contact {
+    border: 5px solid plum;
+}
+
+.contact, .contact > h2 {
+    background-color: white;
+}
